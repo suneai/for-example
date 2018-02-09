@@ -11,7 +11,7 @@ import potajax from "./assets/js/ajax.js";
 Vue.prototype.$potajax = potajax;
 
 //引入vuex
-import store from './store'
+// import store from './store'
 
 //引入mint-ui
 import MintUI from 'mint-ui'
@@ -27,7 +27,7 @@ new Vue({
   router,
   template: '<App/>',
   components: { App },
-  store,
+  // store,
   data: {
     eventHub: new Vue()
   }
